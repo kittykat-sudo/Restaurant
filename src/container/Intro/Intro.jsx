@@ -13,9 +13,9 @@ const Intro = () => {
       <video
         ref={vidRef}
         src={meal}
-        // type="video/mp4"
+        type="video/mp4"
         loop
-        controls={true}
+        controls={false}
         muted
       />
       <div className="app__video-overlay flex__center">
@@ -29,7 +29,7 @@ const Intro = () => {
               vidRef.current.play();
             }
           }}
-          // aria-hidden="true"
+          aria-hidden="true"
         >
           {playVideo ? (
             <BsPauseFill color="#fff" fontSize={30} />
