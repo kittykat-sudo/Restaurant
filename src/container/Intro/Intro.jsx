@@ -15,7 +15,7 @@ const Intro = () => {
         src={meal}
         // type="video/mp4"
         loop
-        controls={false}
+        controls={true}
         muted
       />
       <div className="app__video-overlay flex__center">
