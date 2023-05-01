@@ -29,7 +29,7 @@ const Intro = () => {
               vidRef.current.play();
             }
           }}
-          aria-hidden="true"
+          // aria-hidden="true"
         >
           {playVideo ? (
             <BsPauseFill color="#fff" fontSize={30} />
