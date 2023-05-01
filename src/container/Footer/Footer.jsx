@@ -47,7 +47,7 @@ const Footer = () => (
 
     <div className="footer__copyright">
       <p className="p__opensans">
-        2021 Gericht. All Rights reserved{" "}
+        2023 Gericht. All Rights reserved{" "}
         <a href="https://github.com/JustGetAClass/Gericht/tree/master">
           /<FiGithub />/
         </a>
