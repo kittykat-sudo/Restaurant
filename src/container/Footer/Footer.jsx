@@ -1,4 +1,4 @@
-import { FiFacebook, FiTwitter, FiInstagram } from "react-icons/fi";
+import { FiFacebook, FiTwitter, FiInstagram, FiGithub } from "react-icons/fi";
 
 import { FooterOverlay, Newsletter } from "../../components";
 import { images } from "../../constants";
@@ -46,7 +46,13 @@ const Footer = () => (
     </div>
 
     <div className="footer__copyright">
-      <p className="p__opensans">2021 Gericht. All Rights reserved.</p>
+      <p className="p__opensans">
+        2021 Gericht. All Rights reserved{" "}
+        <a href="https://github.com/JustGetAClass/Gericht/tree/master">
+          /<FiGithub />/
+        </a>
+        .
+      </p>
     </div>
   </div>
 );
