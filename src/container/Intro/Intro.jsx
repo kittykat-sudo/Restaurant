@@ -13,7 +13,7 @@ const Intro = () => {
       <video
         ref={vidRef}
         src={meal}
-        type="video/mp4"
+        // type="video/mp4"
         loop
         controls={false}
         muted
