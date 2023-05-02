@@ -2,6 +2,7 @@ import { FiFacebook, FiTwitter, FiInstagram, FiGithub } from "react-icons/fi";
 
 import { FooterOverlay, Newsletter } from "../../components";
 import { images } from "../../constants";
+import year from "../date";
 import "./Footer.css";
 
 const Footer = () => (
@@ -47,7 +48,7 @@ const Footer = () => (
 
     <div className="footer__copyright">
       <p className="p__opensans">
-        2023 Gericht. All Rights reserved{" "}
+        {year} Gericht. All Rights reserved{" "}
         <a href="https://github.com/JustGetAClass/Gericht/tree/master">
           /<FiGithub />/
         </a>
