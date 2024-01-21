@@ -5,11 +5,16 @@
   --font-alt: "Open Sans", sans-serif;
 
   --color-golden: #dcca87;
+  /* --color-golden: #937d2f; */
+  /* --color-golden: #A5864F; */
   --color-black: #0c0c0c;
   --color-gray: #545454;
-  --color-crimson: #f5efdb;
+  --color-crimson: #dcca87;
+  --color-textbutton: #dcca87;
   --color-grey: #aaaaaa;
   --color-white: #ffffff;
+  --color-hover:#dcca87;
+  
 }
 
 * {

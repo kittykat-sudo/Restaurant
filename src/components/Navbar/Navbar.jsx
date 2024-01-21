@@ -31,13 +31,13 @@ const Navbar = () => {
       </ul>
       <div className="app__navbar-login">
         <a href="#login" className="p__opensans">
-          Log In / Registration
+          Book Room
         </a>
         <div />
         <a href="#contact" className="p__opensans">
           Book Table
         </a>
-      </div>
+        </div>
       <div className="app__navbar-smallscreen">
         <GiHamburgerMenu
           color="#fff"

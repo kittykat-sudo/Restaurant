@@ -15,7 +15,7 @@ const Footer = () => (
         <h1 className="app__footer-headtext">Contact Us</h1>
         <p className="p__opensans">12 Hospital Street, 80000 Galle, Sri Lanka</p>
         <p className="p__opensans">+94 774 108 284</p>
-        <p className="p__opensans">+94 647 820 432</p>
+        <p className="p__opensans">+33 647 820 432</p>
         <p className="p__opensans">+94 912 246 608</p>
       </div>
 
