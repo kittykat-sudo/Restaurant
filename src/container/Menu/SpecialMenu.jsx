@@ -17,7 +17,7 @@ const SpecialMenu = () => (
           {data.wines.map((wine, index) => (
             <a
               key={wine.title + index}
-              href={`#contact`}  // Replace `#` with the actual URL you want to link to
+              href={`#chef`}  // Replace `#` with the actual URL you want to link to
               className="menu-item-link"
             >
               <MenuItem
@@ -43,7 +43,7 @@ const SpecialMenu = () => (
           {data.cocktails.map((cocktail, index) => (
             <a
               key={cocktail.title + index}
-              href={`#contact`}  // Replace `#` with the actual URL you want to link to
+              href={`#chef`}  // Replace `#` with the actual URL you want to link to
               className="menu-item-link"
             >
             <MenuItem
