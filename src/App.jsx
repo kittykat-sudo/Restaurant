@@ -9,6 +9,7 @@ import {
   Intro,
   Laurels,
   SpecialMenu,
+  History,
   // Footercopy,
   // Testimonials, // Add this line to import the new component
 } from "./container";
@@ -32,8 +33,10 @@ const App = () => (
     <Intro />
     <Laurels />
     <Gallery />
+    <History />
     <FindUs />
     <Footer />
+    
   </div>
 );
 

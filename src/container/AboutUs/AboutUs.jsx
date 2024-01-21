@@ -38,7 +38,7 @@ const AboutUs = () => (
           odio nec aliquet.
         </p>
         <button type="button" className="custom__button">
-          <a href="history.html">Know More</a>
+          <a href="#history">Know More</a>
         </button>
       </div>
     </div>
