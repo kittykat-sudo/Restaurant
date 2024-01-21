@@ -9,13 +9,15 @@ import {
   Intro,
   Laurels,
   SpecialMenu,
+  // Footercopy,
   // Testimonials, // Add this line to import the new component
 } from "./container";
 
 import {
-  Navbar,
+  Navbar
   // Menuttem,
 } from "./components";
+
 
 import "./App.css";
 
@@ -28,8 +30,6 @@ const App = () => (
     <SpecialMenu />
     <Chef />
     <Intro />
-    {/* <KnowMore /> */}
-    {/* <Testimonials /> */}
     <Laurels />
     <Gallery />
     <FindUs />

@@ -13,7 +13,9 @@ const Header = () => (
         tellus{" "}
       </p>
       <button type="button" className="custom__button">
-        Explore Menu
+        
+        <a href="#menu">Explore Menu</a>
+        
       </button>
     </div>
 

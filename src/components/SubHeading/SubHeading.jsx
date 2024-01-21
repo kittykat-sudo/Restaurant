@@ -7,4 +7,6 @@ const SubHeading = ({ title }) => (
   </div>
 );
 
+
+
 export default SubHeading;

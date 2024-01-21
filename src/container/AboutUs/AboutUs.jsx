@@ -20,7 +20,7 @@ const AboutUs = () => (
           aliquet eu proin mauris et.
         </p>
         <button type="button" className="custom__button">
-          <a href="#knowmore">Know More</a>
+          <a href="#photoGallerySection">Know More</a>
         </button>
 
       </div>
@@ -38,7 +38,7 @@ const AboutUs = () => (
           odio nec aliquet.
         </p>
         <button type="button" className="custom__button">
-          Know More
+          <a href="history.html">Know More</a>
         </button>
       </div>
     </div>
