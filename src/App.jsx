@@ -25,6 +25,7 @@ import "./App.css";
 
 const App = () => (
   <div>
+    
     <Navbar />
     <Header />
     <AboutUs />
@@ -36,6 +37,7 @@ const App = () => (
     <History />
     <FindUs />
     <Footer />
+    
     
   </div>
 );

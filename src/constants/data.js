@@ -2,27 +2,32 @@ import images from './images';
 
 const wines = [
   {
-    title: 'Chapel Hill Shiraz',
+    title: "Wake n' Bake",
     price: '$56',
     tags: 'AU | Bottle',
   },
   {
-    title: 'Catena Malbee',
+    title: 'Healthy Porridge Bowl',
     price: '$59',
     tags: 'AU | Bottle',
   },
   {
-    title: 'La Vieillw Rose',
+    title: 'Italian Frittata (Italian Omelette)',
     price: '$44',
     tags: 'FR | 750 ml',
   },
   {
-    title: 'Rhino Pale Ale',
+    title: 'Avocado Toast',
     price: '$31',
     tags: 'CA | 750 ml',
   },
   {
-    title: 'Irish Guinness',
+    title: 'Beet Pray Love',
+    price: '$26',
+    tags: 'IE | 750 ml',
+  },
+  {
+    title: 'Breakfast Tacos',
     price: '$26',
     tags: 'IE | 750 ml',
   },
@@ -30,27 +35,37 @@ const wines = [
 
 const cocktails = [
   {
-    title: 'Aperol Sprtiz',
+    title: 'Mango & Passion Fruit Fusion',
     price: '$20',
     tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
   },
   {
-    title: "Dark 'N' Stormy",
+    title: "Passion Tropic",
     price: '$16',
     tags: 'Dark rum | Ginger beer | Slice of lime',
   },
   {
-    title: 'Daiquiri',
+    title: 'Margarita',
     price: '$10',
     tags: 'Rum | Citrus juice | Sugar',
   },
   {
-    title: 'Old Fashioned',
+    title: 'Original Mojito',
     price: '$31',
     tags: 'Bourbon | Brown sugar | Angostura Bitters',
   },
   {
-    title: 'Negroni',
+    title: 'Watermelon Mojito',
+    price: '$26',
+    tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
+  },
+  {
+    title: 'Melon Mojito',
+    price: '$26',
+    tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
+  },
+  {
+    title: 'Mai Thai',
     price: '$26',
     tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
   },
@@ -59,7 +74,7 @@ const cocktails = [
 const awards = [
   {
     imgUrl: images.award02,
-    title: 'Bib Gourmond',
+    title: 'Bib Gourmondlol',
     subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
   },
   {

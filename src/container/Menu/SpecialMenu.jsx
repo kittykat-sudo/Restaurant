@@ -11,17 +11,26 @@ const SpecialMenu = () => (
 
     <div className="app__specialMenu-menu">
       <div className="app__specialMenu-menu_wine  flex__center">
-        <p className="app__specialMenu-menu_heading">Wine & Beer</p>
+        <p className="app__specialMenu-menu_heading">Breakfast</p>
+        
         <div className="app__specialMenu_menu_items">
           {data.wines.map((wine, index) => (
-            <MenuItem
+            <a
               key={wine.title + index}
-              title={wine.title}
-              price={wine.price}
-              tags={wine.tags}
-            />
+              href={`#contact`}  // Replace `#` with the actual URL you want to link to
+              className="menu-item-link"
+            >
+              <MenuItem
+                title={wine.title}
+                price={wine.price}
+                tags={wine.tags}
+              />
+            </a>
           ))}
         </div>
+
+
+
       </div>
 
       <div className="app__specialMenu-menu_img">
