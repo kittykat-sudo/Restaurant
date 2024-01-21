@@ -1,5 +1,4 @@
 import React from "react";
-
 import {
   AboutUs,
   Chef,
@@ -10,9 +9,16 @@ import {
   Intro,
   Laurels,
   SpecialMenu,
+  // Testimonials, // Add this line to import the new component
 } from "./container";
-import { Navbar } from "./components";
+
+import {
+  Navbar,
+  // Menuttem,
+} from "./components";
+
 import "./App.css";
+
 
 const App = () => (
   <div>
@@ -22,6 +28,8 @@ const App = () => (
     <SpecialMenu />
     <Chef />
     <Intro />
+    {/* <KnowMore /> */}
+    {/* <Testimonials /> */}
     <Laurels />
     <Gallery />
     <FindUs />

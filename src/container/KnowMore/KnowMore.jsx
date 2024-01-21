@@ -1,5 +1,5 @@
 import { images } from "../../constants";
-import "./AboutUs.css";
+import "./KnowMore.css";
 
 const AboutUs = () => (
   <div
@@ -12,7 +12,7 @@ const AboutUs = () => (
 
     <div className="app__aboutus-content flex__center">
       <div className="app__aboutus-content_about">
-        <h1 className="headtext__cormorant">About Us</h1>
+        <h1 className="headtext__cormorant">About Usloool</h1>
         <img src={images.spoon} alt="about_spoon" className="spoon__img" />
         <p className="p__opensans">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra
@@ -20,7 +20,7 @@ const AboutUs = () => (
           aliquet eu proin mauris et.
         </p>
         <button type="button" className="custom__button">
-          <a href="#knowmore">Know More</a>
+          <a href="#KnowMore">Know More</a>
         </button>
 
       </div>
