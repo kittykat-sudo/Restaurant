@@ -124,9 +124,10 @@
   .app__navbar {
     padding: 1rem;
   }
-
-  .app__navbar-login {
-    display: none;
+  @media screen and (max-width: 768px) {
+    .app__navbar-login {
+      display: flex;
+    }
   }
 
   .app__navbar-logo img {
