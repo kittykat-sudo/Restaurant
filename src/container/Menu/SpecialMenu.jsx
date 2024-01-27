@@ -17,7 +17,7 @@ const SpecialMenu = () => (
           {data.wines.map((wine, index) => (
             <a
               key={wine.title + index}
-              href={`#contact`}  // Replace `#` with the actual URL you want to link to
+              href={`#chef`}  // Replace `#` with the actual URL you want to link to
               className="menu-item-link"
             >
               <MenuItem
@@ -41,12 +41,18 @@ const SpecialMenu = () => (
         <p className="app__specialMenu-menu_heading">Cocktails</p>
         <div className="app__specialMenu_menu_items">
           {data.cocktails.map((cocktail, index) => (
+            <a
+              key={cocktail.title + index}
+              href={`#chef`}  // Replace `#` with the actual URL you want to link to
+              className="menu-item-link"
+            >
             <MenuItem
               key={cocktail.title + index}
               title={cocktail.title}
               price={cocktail.price}
               tags={cocktail.tags}
             />
+            </a>
           ))}
         </div>
       </div>
