@@ -6,17 +6,17 @@ const Header = () => (
   <div className="app__header app__wrapper section__padding" id="home">
     <div className="app__wrapper_info">
       <SubHeading title="Italian Retreat: Savor & Stay" />
-      <h1 className="app__header-h1">The Key To Fine Dining & Staying</h1>
+      <h1 className="app__header-h1">A New Kind of Luxury</h1>
       <p className="p__opensans" style={{ margin: "2rem 0" }}>
       Discover Le Bella 1912 – your Italian retreat in Galle Fort. Indulge in authentic flavors,
       stylish stays, and easy access to historic palaces. Let us be your gateway to both Italy and the charm of Galle. Benvenuti a Le Bella 1912!
       {" "}
       </p>
-      <button type="button" className="custom__button">
-        
-        <a href="#menu">Explore Menu</a>
-        
-      </button>
+      <a href="#menu">
+        <button type="button" className="custom__button">
+          Explore Menu
+        </button>
+      </a>
     </div>
 
     <div className="app__wrapper_img">

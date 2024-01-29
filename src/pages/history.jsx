@@ -19,11 +19,9 @@ const AboutUs = () => (
           adipiscing ultrices vulputate posuere tristique. In sed odio nec
           aliquet eu proin mauris et.
         </p>
-        <a href="#photoGallerySection">
-          <button type="button" className="custom__button">
-            Know More
-          </button>
-        </a>
+        <button type="button" className="custom__button">
+          <a href="#photoGallerySection">Know More</a>
+        </button>
 
       </div>
 
@@ -39,11 +37,9 @@ const AboutUs = () => (
           Risus placerat morbi volutpat habitasse interdum mi aliquam In sed
           odio nec aliquet.
         </p>
-        <a href="#history">
-          <button type="button" className="custom__button">
-            Know More
-          </button>
-        </a>
+        <button type="button" className="custom__button">
+          <a href="#history">Know More</a>
+        </button>
       </div>
     </div>
   </div>

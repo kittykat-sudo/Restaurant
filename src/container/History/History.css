@@ -25,6 +25,7 @@
     flex-direction: row;
     max-width: 50%;
     position: relative;
+    width: fit-content;
   }
   
   .app__history-images_container {
