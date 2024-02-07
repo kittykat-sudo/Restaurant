@@ -59,16 +59,6 @@ const cocktails = [
     price: '$26',
     tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
   },
-  {
-    title: 'Melon Mojito',
-    price: '$26',
-    tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
-  },
-  {
-    title: 'Mai Thai',
-    price: '$26',
-    tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
-  },
 ];
 
 const awards = [

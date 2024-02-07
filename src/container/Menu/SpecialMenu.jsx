@@ -14,7 +14,7 @@ const SpecialMenu = () => (
         <p className="app__specialMenu-menu_heading">Breakfast</p>
         
         <div className="app__specialMenu_menu_items">
-          {data.wines.map((wine, index) => (
+          {data.wines.slice(0,5).map((wine, index) => (
             <a
               key={wine.title + index}
               href={`#chef`}  // Replace `#` with the actual URL you want to link to
@@ -29,8 +29,6 @@ const SpecialMenu = () => (
           ))}
         </div>
 
-
-
       </div>
 
       <div className="app__specialMenu-menu_img">
@@ -40,7 +38,7 @@ const SpecialMenu = () => (
       <div className="app__specialMenu-menu_cocktails  flex__center">
         <p className="app__specialMenu-menu_heading">Cocktails</p>
         <div className="app__specialMenu_menu_items">
-          {data.cocktails.map((cocktail, index) => (
+          {data.cocktails.slice(0,5).map((cocktail, index) => (
             <a
               key={cocktail.title + index}
               href={`#chef`}  // Replace `#` with the actual URL you want to link to
