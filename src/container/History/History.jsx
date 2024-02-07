@@ -1,7 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { SubHeading } from "../../components";
-import { images } from "../../constants";
 import "./History.css";
 
 const History = () => {
@@ -22,9 +20,7 @@ const History = () => {
         </button>
       </div>
       <div className="app__history-images">
-        <img src={images.historyImage1} alt="History Image 1" />
-        <img src={images.historyImage2} alt="History Image 2" />
-        <img src={images.historyImage3} alt="History Image 3" />
+
       </div>
     </div>
   );

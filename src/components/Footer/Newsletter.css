@@ -2,6 +2,8 @@
   padding: 2rem 4rem;
   border: 1px solid var(--color-golden);
   background: var(--color-black);
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
 .app__newsletter-heading {
@@ -48,6 +50,12 @@
   }
 }
 
+@media (max-width: 600px) {
+  .image-container {
+    flex: 1 0 100%;
+  }
+}
+
 @media screen and (max-width: 650px) {
   .app__newsletter {
     padding: 2rem 0;
@@ -64,16 +72,17 @@
 
 .app__newsletter-images {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
 .image-container {
   position: relative;
   width: 10rem;
-  height: 10rem
-;
-  margin: 0 1rem;
+  height: 10rem;
   overflow: hidden;
+  flex: 1 0 45%;
+  margin: 2.5%;
 }
 
 .image-container::before {
