@@ -23,6 +23,7 @@ import gericht from '../assets/gericht.png';
 import historyImage1 from '../assets/historyImage1.png';
 import historyImage2 from '../assets/historyImage2.png';
 import historyImage3 from '../assets/historyImage3.png';
+import gallefort from '../assets/gallefort.png';
 
 export default {
   bg,
@@ -50,5 +51,6 @@ export default {
   historyImage1,
   historyImage2,
   historyImage3,
+  gallefort,
   
 };

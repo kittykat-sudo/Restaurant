@@ -6,6 +6,8 @@ import { HashLink } from 'react-router-hash-link';
 import images from "../../constants/images";
 import "./Navbar.css";
 
+
+
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
