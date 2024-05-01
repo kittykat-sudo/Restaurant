@@ -84,4 +84,13 @@ const awards = [
   },
 ];
 
-export default { wines, cocktails, awards };
+const history = [
+  {
+    imgUrl: images.gallefort,
+    title: 'galle',
+    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+  },
+  
+];
+
+export default { wines, cocktails, awards, history };

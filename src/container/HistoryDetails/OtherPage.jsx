@@ -1,5 +1,5 @@
 import React from 'react';
-import image from '../../assets/award01.png'; // Import the image
+import image from '../../assets/gallefort.png'; // Import the image
 import "./OtherPage.css";
 
 const OtherPage = () => {

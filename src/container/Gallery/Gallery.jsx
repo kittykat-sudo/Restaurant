@@ -45,13 +45,16 @@ const Gallery = () => {
             images.gallery02,
             images.gallery03,
             images.gallery04,
+            images.gallery05,
           ].map((image, index) => (
             <div
               className="app__gallery-images_card flex__center"
               key={`gallery_image-${index + 1}`}
             >
-              <img src={image} alt="gallery_image" />
+              <a href="https://www.instagram.com/your-instagram-page" target="_blank" rel="noopener noreferrer">
+              <img src={image} alt="gallery_image" /></a>
               <BsInstagram className="gallery__image-icon" />
+              
             </div>
           ))}
         </div>
