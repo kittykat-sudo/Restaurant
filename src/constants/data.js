@@ -59,16 +59,6 @@ const cocktails = [
     price: '$26',
     tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
   },
-  {
-    title: 'Melon Mojito',
-    price: '$26',
-    tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
-  },
-  {
-    title: 'Mai Thai',
-    price: '$26',
-    tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
-  },
 ];
 
 const awards = [
@@ -94,4 +84,13 @@ const awards = [
   },
 ];
 
-export default { wines, cocktails, awards };
+const history = [
+  {
+    imgUrl: images.gallefort,
+    title: 'galle',
+    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+  },
+  
+];
+
+export default { wines, cocktails, awards, history };

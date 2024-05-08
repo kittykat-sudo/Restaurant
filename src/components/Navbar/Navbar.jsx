@@ -1,8 +1,12 @@
 import { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdOutlineRestaurantMenu } from "react-icons/md";
+import { Link } from "react-router-dom"; // Import Link
+import { HashLink } from 'react-router-hash-link';
 import images from "../../constants/images";
 import "./Navbar.css";
+
+
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -16,19 +20,19 @@ const Navbar = () => {
       </div>
       <ul className="app__navbar-links">
         <li className="p__opensans">
-          <a href="#home">Home</a>
+          <Link to="/">Home</Link>
         </li>
         <li className="p__opensans">
-          <a href="#about">About</a>
+          <HashLink smooth to="/#about">About</HashLink> {/* Replace a tag with HashLink */}
         </li>
         <li className="p__opensans">
-          <a href="#menu">Menu</a>
+          <HashLink smooth to="/#menu">Menu</HashLink> {/* Replace a tag with HashLink */}
         </li>
         <li className="p__opensans">
-          <a href="#awards">Awards</a>
+          <HashLink smooth to="/#awards">Awards</HashLink> {/* Replace a tag with HashLink */}
         </li>
         <li className="p__opensans">
-          <a href="#contact">Contact</a>
+          <HashLink smooth to="/#contact">Contact</HashLink> {/* Replace a tag with HashLink */}
         </li>
       </ul>
       <div className="app__navbar-login">
@@ -39,7 +43,7 @@ const Navbar = () => {
         <a href="#contact" className="p__opensans">
           Book Table
         </a>
-        </div>
+      </div>
       <div className="app__navbar-smallscreen">
         <GiHamburgerMenu
           color="#fff"

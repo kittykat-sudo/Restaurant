@@ -1,8 +1,10 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { SubHeading } from "../../components";
-import { images } from "../../constants";
+import { Link } from "react-router-dom";
 import "./History.css";
+import image1 from "../../assets/historyImage1.png";
+import image2 from "../../assets/historyImage2.png";
+
 
 const History = () => {
   
@@ -16,15 +18,14 @@ const History = () => {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat
           mattis ipsum turpis elit elit scelerisque egestas mu.
         </p>
-        {/* Use Link to navigate to another page */}
+
         <button type="button" className="custom__button">
-          <a href="/other-page">Learn More</a>
+          <Link to="/other-page">Learn More</Link>
         </button>
       </div>
       <div className="app__history-images">
-        <img src={images.historyImage1} alt="History Image 1" />
-        <img src={images.historyImage2} alt="History Image 2" />
-        <img src={images.historyImage3} alt="History Image 3" />
+        <img src={image1} alt="History 1" />
+        <img src={image2} alt="History 2" />
       </div>
     </div>
   );

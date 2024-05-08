@@ -26,6 +26,7 @@
     max-width: 50%;
     position: relative;
     width: fit-content;
+    overflow: hidden;
   }
   
   .app__history-images_container {
@@ -36,6 +37,13 @@
     -ms-overflow-style: none;
     scrollbar-width: none;
   }
+
+  .app__history-images img {
+    max-width: 100%; /* This will make sure the image is not larger than its container */
+    height: auto; /* This will maintain the aspect ratio of the image */
+    margin: 0;
+  }
+
   
   .app__history-images_container::-webkit-scrollbar {
     display: none;

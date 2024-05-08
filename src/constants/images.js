@@ -5,6 +5,7 @@ import gallery01 from '../assets/gallery01.png';
 import gallery02 from '../assets/gallery02.png';
 import gallery03 from '../assets/gallery03.png';
 import gallery04 from '../assets/gallery04.png';
+import gallery05 from '../assets/gallery05.png';
 import knife from '../assets/knife.png';
 import logo from '../assets/logo.png';
 import menu from '../assets/menu.png';
@@ -23,6 +24,7 @@ import gericht from '../assets/gericht.png';
 import historyImage1 from '../assets/historyImage1.png';
 import historyImage2 from '../assets/historyImage2.png';
 import historyImage3 from '../assets/historyImage3.png';
+import gallefort from '../assets/gallefort.png';
 
 export default {
   bg,
@@ -32,6 +34,7 @@ export default {
   gallery02,
   gallery03,
   gallery04,
+  gallery05,
   knife,
   logo,
   menu,
@@ -50,5 +53,6 @@ export default {
   historyImage1,
   historyImage2,
   historyImage3,
+  gallefort,
   
 };
